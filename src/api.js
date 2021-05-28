@@ -4,6 +4,7 @@
 /* eslint-disable max-len */
 // eslint-disable-next-line strict
 const express = require('express');
+const encoding = require('encoding');
 const serverless = require('serverless-http');
 const cors = require('cors');
 const path = require('path');
