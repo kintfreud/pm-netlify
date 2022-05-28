@@ -84,7 +84,7 @@ router.get('/', cors(), (req, res) => {
   */
   var Data = {
     PAYEE_ACCOUNT: 'U29376327',
-    PAYEE_NAME: 'Green Wallet',
+    PAYEE_NAME: 'HT Forex',
     STATUS_URL: 'https://gw-pm.herokuapp.com/status.js',
     PAYMENT_URL: 'https://gw-pm.herokuapp.com/success.js',
     NOPAYMENT_URL: 'https://gw-pm.herokuapp.com/error.js',
@@ -128,7 +128,7 @@ router.post('/', cors(), function(req, res) {
 
   var Data = {
     PAYEE_ACCOUNT: 'U29376327',
-    PAYEE_NAME: 'Green Wallet',
+    PAYEE_NAME: 'HT Forex',
     STATUS_URL: 'https://gw-pm.herokuapp.com/status.js',
     PAYMENT_URL: 'https://gw-pm.herokuapp.com/success.js',
     NOPAYMENT_URL: 'https://gw-pm.herokuapp.com/error.js',
